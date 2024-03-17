@@ -21,40 +21,40 @@ if __name__ == '__main__':
     flameSize = 130         # the length of the flaming arms
     
     # Make a new turtle
-    
+    whitestorm = turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
-    
+    whitestorm.shape("turtle")
     # Set the turtle width to 2
-    
+    whitestorm.width(2)
     # Set the turtle speed to 0 (fastest)
-    
+    whitestorm.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-        
+    for cat in range(1):
         # Set the turtle .fillcolor() to orange
-        
+        whitestorm.fillcolor("orange")
         # Call the turtle .begin_fill() function
-        
+        whitestorm.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
         #                will turn a full circle)
-        
+        whitestorm.right(45)
         # DRAW           Move the turtle 64 pixels
-        
+        whitestorm.forward(64)
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #                numbers will turn the turtle counter-clockwise.)
-        
+        whitestorm.left(40)
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
-        
+        whitestorm.forward(flameSize)
         #                Turn the turtle to the right 170 degrees
-         
+        whitestorm.right(170)
         #                Move the turtle the distance in the variable flameSize (again)
-         
+        whitestorm.forward(flameSize)
         #  TURN RIGHT    Turn the turtle 62 degrees to the right
-        
+        whitestorm.right(62)
         #  DRAW          Move the turtle the distance in the variable baseSize
-        
+        whitestorm.forward(baseSize)
         # Call the turtle .end_fill() method
-        
+        whitestorm.end_fill()
     # Hide your turtle so you can see the pattern.
         
     # TEST   Run the program. Check that your shape is the same as the first
