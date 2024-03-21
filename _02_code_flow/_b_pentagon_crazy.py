@@ -2,7 +2,7 @@ import random
 import turtle
 
 
-# Returns a random color!
+# Returns a random olor!
 def get_random_color():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
