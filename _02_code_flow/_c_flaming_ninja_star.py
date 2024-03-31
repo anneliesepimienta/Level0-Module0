@@ -30,9 +30,10 @@ if __name__ == '__main__':
     whitestorm.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-    for cat in range(1):
+    for cat in range(25):
         # Set the turtle .fillcolor() to orange
-        whitestorm.fillcolor("orange")
+       # whitestorm.fillcolor("orange")
+        whitestorm.fillcolor(get_random_color())
         # Call the turtle .begin_fill() function
         whitestorm.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
@@ -56,14 +57,14 @@ if __name__ == '__main__':
         # Call the turtle .end_fill() method
         whitestorm.end_fill()
     # Hide your turtle so you can see the pattern.
-        
+    whitestorm.hideturtle()
     # TEST   Run the program. Check that your shape is the same as the first
     #        picture in the recipe. This is one arm of the ninja star.
 
     # COLOR  Change the turtle's pen color so that the flame is a different
     #        color to the rest of the star. Run the program again. Check the
     #        second picture in the recipe.
-
+    whitestorm.pencolor(get_random_color())
     # LOOP   When you have one arm looking right, change your for loop to
     #        repeat 25 times.
     
