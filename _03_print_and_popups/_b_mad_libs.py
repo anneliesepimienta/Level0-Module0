@@ -8,6 +8,7 @@ if __name__ == '__main__':
     window.withdraw()
     # Put this sentence in a pop-up message box:
     # "If you find yourself having to cross a piranha-infested river, here's how to do it..."
+
     river = simpledialog.askstring(title = "cat", prompt = "If you find yourself having to cross a piranha-infested river, here's how to do it...")
     print(river)
     # Get the player to enter an adjective
@@ -39,7 +40,7 @@ if __name__ == '__main__':
     # Make a pop-up that contains the final story. The \n escape characters add
     # line breaks to the story. If you need to, move them around to make your
     # story look better in the pop-up
-
+    messagebox.showinfo(message=story)
     # If you want to write your own Madlib story, just change the story variable
     # and ask the player different questions.
 
