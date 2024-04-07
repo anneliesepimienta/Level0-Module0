@@ -17,14 +17,18 @@ if __name__ == '__main__':
     # 4. If your variable is  0
         # -- tell the user whatever they entered is awesome!
     if cat == 0:
-        messagebox.showinfo(message="")
+        messagebox.showinfo(title = "awesome", message="that's awesome")
     # 5. If your variable is  1
         # -- tell the user whatever they entered is ok.
-    
+        if cat == 1:
+            messagebox.showinfo(title = "awesome", message="that's ok")
     # 6. If your variable is  2
         # -- tell the user whatever they entered is boring.
-    
+        if cat == 2:
+            messagebox.showinfo(title = "awesome", message="that's boring")
     # 7. If your variable is  3
         # -- invent your own message to give to the user (be nice).
-        
+        if cat == 3:
+            messagebox.showinfo(title = "awesome", message="mega cat super hero kitties are so much better that that")
     # Run the window's .mainloop() method
+    window.mainloop()

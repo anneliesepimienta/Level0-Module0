@@ -33,3 +33,4 @@ if __name__ == '__main__':
     # remember to convert your variable to a string using the str() function 
     messagebox.showinfo(message="your total score is " + str(score))
     # Run the window's .mainloop() method
+    window.mainloop()
